@@ -14,7 +14,7 @@
   /* Default color used for the majority of the text content across the entire website */
   --heading-color: #273d4e;
   /* Color for headings, subheadings and title throughout the website */
-  --accent-color: #011E60;
+  --accent-color: #00263d;
   /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
   --surface-color: #ffffff;
   /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
@@ -26,7 +26,7 @@
 :root {
   --nav-color: #e5eaee;
   /* The default color of the main navmenu links */
-  --nav-hover-color: #ff4a17;
+  --nav-hover-color: #a78546;
   /* Applied to main navmenu links when they are hovered over or active */
   --nav-mobile-background-color: transparent;
   /* Used as the background color for mobile navigation menu */
@@ -34,7 +34,7 @@
   /* Used as the background color for dropdown items that appear when hovering over primary navigation items */
   --nav-dropdown-color: #444444;
   /* Used for navigation links of the dropdown items in the navigation menu. */
-  --nav-dropdown-hover-color: #ff4a17;
+  --nav-dropdown-hover-color: #a78546;
   /* Similar to --nav-hover-color, this color is applied to dropdown navigation links when they are hovered over. */
 }
 
@@ -1960,11 +1960,11 @@ body {
 .form-container {
   width: 100%;
   /* min-height: 100vh; */
-  padding: 15px;
+  /* padding: 15px; */
   display: flex;
   align-items: flex-start;
   justify-content: center;
-  padding-top: 20px;
+  /* padding-top: 20px; */
 }
 
 .form-wrapper {
@@ -1995,7 +1995,7 @@ body {
 }
 
 .highlight {
-  color: #ce2934;
+  color: #a78546;
   font-weight: 600;
 }
 
@@ -2032,7 +2032,7 @@ body {
 
 .form-control:focus {
   outline: none;
-  border-color: #ce2934;
+  border-color: #a78546;
   background: #fff;
   box-shadow: 0 0 0 3px rgba(206, 41, 52, 0.1);
 }
@@ -2045,7 +2045,7 @@ body {
 
 .submit-btn {
   width: 100%;
-  background-color: #011E60;
+  background-color: #00263d;
   border: none;
   font-weight: 600;
   font-size: 18px;
@@ -2059,7 +2059,7 @@ body {
 }
 
 .submit-btn:hover {
-  background-color: #011E60;
+  background-color: #00263d;
   transform: translateY(-2px);
   box-shadow: 0 5px 15px rgba(206, 41, 52, 0.3);
 }
@@ -2075,7 +2075,7 @@ body {
   }
 
   .form-container {
-    padding: 5px;
+    padding: 1px;
   }
 
   .foot-navs {
@@ -2223,7 +2223,7 @@ body {
 /* زر الاتصال */
 .call-btn {
   bottom: 20px;
-  background-color: #ce2934;
+  background-color: #a78546;
 }
 
 .logo-container img {
@@ -2244,7 +2244,7 @@ body {
 
 .feature-icon {
   font-size: 40px;
-  color: #011E60;
+  color: #00263d;
 }
 
 .feature-title {
@@ -2300,7 +2300,7 @@ body {
 
 .about-list li::before {
   content: "•";
-  color: #011E60;
+  color: #00263d;
   font-size: 22px;
   position: absolute;
   right: 0;
@@ -2309,5 +2309,5 @@ body {
 .feature-icon {
   font-size: 40px;   /* increase size */
   font-weight: 900;  /* bold */
-  color: #011E60;       /* optional: make sure it looks bold */
+  color: #00263d;       /* optional: make sure it looks bold */
 }
