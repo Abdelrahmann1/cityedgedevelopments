@@ -2311,3 +2311,19 @@ body {
   font-weight: 900;  /* bold */
   color: #00263d;       /* optional: make sure it looks bold */
 }
+.project-img {
+  width: 100%;              /* تخلي الصورة تاخد عرض الكونتينر */
+  max-width: 500px;         /* أقصى عرض */
+  height: 550px;             /* يحافظ على التناسب */
+  border-radius: 12px;      /* زوايا دائرية */
+  object-fit: cover;        /* يحافظ على تناسق الصورة */
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1); /* شادو خفيف */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: block;
+  margin: 0 auto;           /* يخليها في النص */
+}
+
+.project-img:hover {
+  transform: scale(1.05);   /* تكبير بسيط عند الهوفر */
+  box-shadow: 0 6px 18px rgba(0,0,0,0.15);
+}
